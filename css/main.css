@@ -1,3 +1,121 @@
-/*
- * Estilos de tu proyecto
- */
+
+.topo{
+    background-color: #2c3e50;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white; 
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  
+}
+.titulo-topo{
+    font-size: 32px;
+    cursor: pointer;
+    margin-left: 200px;
+    display: inline-block;  
+}
+
+.lista-topo{
+    display: inline-block;
+    list-style:  none;
+    font-size: 16px; 
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-left: 200px; 
+}
+
+.lista-topo a{
+    text-decoration: none;
+    color: white;
+     
+}
+.lista-topo a:hover{
+    color:#18bc9c;
+}
+
+.lista-topo li{
+    cursor: pointer;
+    padding: 16px;
+    display: inline-block  
+}
+
+.start{
+    background-color: #18bc9c;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px; 
+    color: white;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.start p{
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: none;
+    padding-bottom: 40px;
+   
+}
+
+.portifolio{
+    font-family: Montserrat;
+    color:#2c3e50;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.portifolio img{
+    width: 300px;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.about{
+    background-color: #18bc9c;
+    color: white;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.titulo-about{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+.primeiro-p, .segundo-p{
+    display: inline-block;
+    text-align: left;
+    width: 289px;
+    height: 228px;
+    padding: 15px;
+    margin-left: 16px;
+    text-transform: none;
+   
+}
+
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
