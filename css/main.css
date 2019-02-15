@@ -265,6 +265,21 @@ body{
 	border-radius: 50%;
 }
 
+.social .fa-facebook-f{
+	padding-right: 14px;
+	padding-left: 14px;
+}
+
+.social .fa-linkedin-in{
+	padding-right: 11px;
+	padding-left: 11px;
+}
+
+.social .fa-google-plus-g{
+	padding-right: 9px;
+	padding-left: 9px;
+}
+
 .copyright{
 	text-align: center;
 	background-color: #2c3e50;
