@@ -287,24 +287,25 @@ body{
 }
 
 
-/*
-.linha1::after{
+.linha::after{
 	margin-top: 18px;
-	margin-left: 25px;
-	width: 20%;
+	margin-left: 20px;
+	width: 10%;
 	height: 3px;
 	background-color: white;
 	color: white;
 	position: absolute;
-	content: "";	
+	content: "";
 }
 
-.linha2::before{
+.linha::before{
 	margin-top: 18px;
-	width: 20%;
+	margin-left: -155px;
+	width: 10%;
 	height: 3px;
 	background-color: white;
 	color: white;
 	position: absolute;
-	content: "";	
-}*/
+	content: "";
+}
+
