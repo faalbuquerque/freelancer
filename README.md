@@ -1,9 +1,8 @@
-# Freelancer
+# Projeto Freelancer
 
+A ideia do desafio é fazer uma copia do site Freelancer tentando se aproximar o maximo possivel da Layout original, utilizando HTML e CSS
 
-  A ideia do desafio é fazer uma copia do site [Freelancer](https://github.com/faalbuquerque/freelancer/blob/master/docs/fullpage.png) dispobilizado no projeto.
-
-  Comecei escrevendo todo o HTML e em seguida apliquei o CSS através das classes.
+Me organizei escrevendo todo o HTML e em seguida aplicando o CSS através de classes.
 
 
 
