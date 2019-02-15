@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/main.css" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-
     <title>Freelancer</title>
 </head>
 <body>
@@ -29,15 +28,16 @@
 
                 <p>Web Developer - Graphic Artist - User Experience Designer</p>
         </section>
-
         <section class="portifolio">
+            <div class="imagens">
                 <h2>Portifolio</h2>
                 <img src= "assets/images/portfolio/cabin.png" alt="Casinha" />
                 <img src= "assets/images/portfolio/cake.png" alt="Bolo" />
-                <img src= "assets/images/portfolio/circus.png" alt="Circo" />
+                <img src= "assets/images/portfolio/circus.png"  alt="Circo" />
                 <img src= "assets/images/portfolio/game.png" alt="controle" />
                 <img src= "assets/images/portfolio/safe.png" alt="Cofre" />
                 <img src= "assets/images/portfolio/submarine.png" alt="Submarino" />
+            </div>
         </section>
         <section class="about">
             <p class="titulo-about">About</p>
@@ -45,39 +45,44 @@
                 Freelancer is a free bootstrap theme created by Star BootStrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
             </p>
             <p class="segundo-p">
-                Whether you`re a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projetcts, this template is the perfect starting point!
+                Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projetcts, this template is the perfect starting point!
             </p>
             <button class="btn-download">Download Theme</button>
         </section>
         <section class="contact">
             <p>Contact Me</p>
-            <form>
-                <label> Name </label>
-                <input type="text">
-                <label> Email Address </label>
-                <input type="email">
-                <label> Phone Number </label>
-                <input type="tel">
-                <label>Message</label>
-                <textarea ></textarea>
-                <button>Send</button>
+            <form class="formulario">
+                <input type="text" placeholder="Name">
+                <input type="tel" placeholder="Phone Number">
+                <textarea placeholder="Message"></textarea>
+                <button class="send">Send</button>
             </form>   
         </section>
     </main>
     <footer>
-        <nav>
-            <p class="location">Location</p>
-            <p>3481 Melrose Place Beverly Hills, CA 90210</p>
-            <p class="social">Around the Web</p>
-            <ul>
+        <nav class="location">
+            <article>
+                <p class="letra-grande">Location</p>
+                <p class="endereco">3481 Melrose Place Beverly Hills, CA 90210</p>
+            </article>
+            
+            <ul class="social">
+                <p class="letra-grande">Around the Web</p>
                 <li><a href="http://www.facebook.com">Facebook</a></li>
                 <li><a href="http://www.google.com">Google</a></li>
                 <li><a href="http://www.twitter.com">Twitter</a></li>
                 <li><a href="https://www.instagram.com/">Instagram</a></li>
             </ul>
-            <p>About Freelancer</p>
-            <p>Freelancer is a free to use, open source Bootstrap theme creathed by <a href="#"> Star BootStrap</a>.</p>
+            <article>
+                <p class="letra-grande">About Freelancer</p>
+                <p class="endereco">Freelancer is a free to use, open source Bootstrap   theme creathed by <a href="#"> Star BootStrap</a>.</p>
+            </article>
         </nav>
     </footer>
+    <div class="copyright">
+        <small>Copyright © Your Website 2019</small>
+    </div>
 </body>
 </html>
+
+
